@@ -117,10 +117,8 @@ export const moduleContents = {
       whyIntegrate: {
         title: 'Tại sao cần hội nhập? (Tính tất yếu khách quan)',
         items: [
-          'Tận dụng cơ hội: Giúp Việt Nam đi tắt đón đầu, thu hẹp khoảng cách phát triển với các nước tiên tiến, tránh nguy cơ tụt hậu.',
-          'Xu thế thời đại: Các quốc gia đứng biệt lập sẽ khá khó khăn trong việc phát triển (như Triều Tiên, Cuba...).',
-          'Phát triển lực lượng sản xuất: Tiếp cận nguồn lực bên ngoài (vốn, công nghệ, tri thức) để kết hợp với nguồn lực trong nước. Ví dụ: Việt Nam trồng nhiều lúa gạo nhưng nhu cầu trong nước không cần nhiều, ta có thể xuất khẩu.'
-        ]
+          'Thứ nhất, do xu thế khách quan trong bối cảnh toàn cầu hóa kinh tế.',
+          'Thứ hai, hội nhập kinh tế quốc tế là phương thức phát triển phổ biến của các nước, nhất là các nước đang và kém phát triển trong điều kiện hiện nay.',     ]
       },
       preparation: {
         title: 'Nội dung hội nhập (Cần chuẩn bị những gì?)',
