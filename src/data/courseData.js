@@ -58,7 +58,7 @@ export const moduleContents = {
     title: 'Bối cảnh toàn cầu hóa',
     readingTime: 4,
     lastUpdated: '16/12/2024',
-    heroImage: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&h=600&fit=crop',
+    heroImage: '/images/anh1.png',
     heroAlt: 'Global economy and international trade',
     takeaways: [
       {
@@ -93,7 +93,7 @@ export const moduleContents = {
     title: 'Hội nhập Kinh tế Quốc tế của Việt Nam',
     readingTime: 8,
     lastUpdated: '16/12/2024',
-    heroImage: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=600&fit=crop',
+    heroImage: '/images/anh2.png',
     heroAlt: 'Industrial manufacturing and production',
     takeaways: [
       {
@@ -134,7 +134,7 @@ export const moduleContents = {
     title: 'Tác động của Hội nhập Kinh tế',
     readingTime: 7,
     lastUpdated: '16/12/2024',
-    heroImage: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=1200&h=600&fit=crop',
+    heroImage: '/images/anh3.png',
     heroAlt: 'Industrial factory and economic growth',
     takeaways: [
       {
@@ -181,7 +181,7 @@ export const moduleContents = {
     title: '"Biên giới mềm" – Tự chủ hay Phụ thuộc?',
     readingTime: 10,
     lastUpdated: '16/12/2024',
-    heroImage: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop',
+    heroImage: '/images/anh4.png',
     heroAlt: 'Modern city and economic development',
     takeaways: [
       {
@@ -241,7 +241,7 @@ export const moduleContents = {
     title: 'Tổng kết khóa học',
     readingTime: 3,
     lastUpdated: '16/12/2024',
-    heroImage: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop',
+    heroImage: '/images/anh5.png',
     heroAlt: 'Graduation and achievement',
     takeaways: [
       {
