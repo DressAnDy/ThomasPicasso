@@ -113,7 +113,7 @@ export const moduleContents = {
       }
     ],
     content: {
-      definition: `Hội nhập kinh tế quốc tế là việc một quốc gia gắn kết nền kinh tế của mình với thế giới, cùng chia sẻ lợi ích và tuân theo "luật chơi" chung (chuẩn mực quốc tế). Hội nhập gồm tất cả những khía cạnh như kinh tế, văn hoá, chính trị, xã hội... Trong đó kinh tế là cốt lõi.`,
+      definition: `Hội nhập kinh tế quốc tế của một quốc gia là quá trình quốc gia đó thực hiện gắn kết nền kinh tế của mình với nền kinh tế thế giới dựa trên sự chia sẻ lợi ích đồng thời tuân thủ các chuẩn mực quốc tế chung.`,
       whyIntegrate: {
         title: 'Tại sao cần hội nhập? (Tính tất yếu khách quan)',
         items: [
