@@ -49,6 +49,12 @@ export const modules = [
     title: 'Kết thúc khóa học',
     description: 'Tổng kết và đánh giá kiến thức',
     status: 'current'
+  },
+  {
+    id: 'module-ai',
+    title: 'AI Tools & Attribution',
+    description: 'Công cụ AI được sử dụng và nguồn tham khảo',
+    status: 'current'
   }
 ];
 
@@ -270,6 +276,47 @@ export const moduleContents = {
         'Biết các giải pháp để Việt Nam hội nhập hiệu quả mà không bị phụ thuộc'
       ],
       nextStep: 'Hãy thử sức với Quiz Game để kiểm tra và củng cố kiến thức của bạn!'
+    }
+  },
+  'module-ai': {
+    category: 'Công cụ & Tham khảo',
+    title: 'AI Tools & Attribution',
+    readingTime: 2,
+    lastUpdated: '18/12/2024',
+    heroImage: null,
+    heroAlt: 'AI Tools and Attribution',
+    takeaways: [
+      {
+        icon: BookOpen,
+        title: 'Công cụ AI',
+        summary: 'Danh sách các công cụ AI được sử dụng để tạo nội dung này.'
+      },
+      {
+        icon: CheckCircle,
+        title: 'Nguồn tham khảo',
+        summary: 'Tất cả nội dung được tham khảo từ tài liệu chính thức.'
+      },
+      {
+        icon: Shield,
+        title: 'Cam kết',
+        summary: 'Nội dung được tạo với mục đích giáo dục và học tập.'
+      }
+    ],
+    content: {
+      introduction: 'Khóa học này được xây dựng với sự hỗ trợ của các công cụ Artificial Intelligence hiện đại, nhằm nâng cao chất lượng nội dung và trải nghiệm học tập.',
+      toolsUsed: [
+        'NotebookLM - Để tổng hợp, phân tích và tóm tắt tài liệu',
+        'Google Gemini - Để hỗ trợ viết và chỉnh sửa nội dung',
+        'GitHub Copilot - Để hỗ trợ lập trình React và JavaScript',
+        'Claude - Để soạn thảo và cải thiện nội dung chi tiết',
+        'CanvaAI - Để hỗ trợ thiết kế giao diện người dùng'
+      ],
+      sources: {
+        primary: 'Tài liệu chính của khóa học MLN122 (Kinh tế Chính trị)',
+        secondary: 'Các nguồn tham khảo chính thức về hội nhập kinh tế quốc tế'
+      },
+      teamCommitment: 'Nhóm Thomas Picasso cam kết rằng các công cụ AI được sử dụng hoàn toàn cho mục đích giáo dục, nâng cao chất lượng nội dung học tập, và không được dùng để vi phạm bản quyền hoặc quyền sở hữu trí tuệ của bất kỳ bên thứ ba nào.',
+      usage: 'Nội dung này được tạo ra nhằm mục đích cung cấp tài liệu học tập chất lượng cao cho học sinh và sinh viên. Tất cả thông tin được kiểm duyệt và cập nhật theo những phát triển mới nhất.'
     }
   }
 };

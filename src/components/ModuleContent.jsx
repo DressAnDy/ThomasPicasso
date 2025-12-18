@@ -145,6 +145,39 @@ const ModuleContent = ({ module, moduleData, prevModule, nextModule, onNavigate 
           </>
         );
 
+      case 'module-ai':
+        return (
+          <>
+            <ContentSection>
+              <SectionTitle>Công cụ AI được sử dụng</SectionTitle>
+              <Paragraph>{moduleData.content.introduction}</Paragraph>
+              <BulletList items={moduleData.content.toolsUsed} />
+            </ContentSection>
+
+            <ContentSection>
+              <SectionTitle>Nguồn tham khảo</SectionTitle>
+              <Paragraph>
+                <strong>Tài liệu chính:</strong> {moduleData.content.sources.primary}
+              </Paragraph>
+              <Paragraph>
+                <strong>Tài liệu phụ:</strong> {moduleData.content.sources.secondary}
+              </Paragraph>
+            </ContentSection>
+
+            <ContentSection>
+              <SectionTitle>Cam kết của nhóm Thomas Picasso</SectionTitle>
+              <HighlightBox title="✓ Cam kết" type="success">
+                {moduleData.content.teamCommitment}
+              </HighlightBox>
+            </ContentSection>
+
+            <ContentSection>
+              <SectionTitle>Mục đích sử dụng</SectionTitle>
+              <Paragraph>{moduleData.content.usage}</Paragraph>
+            </ContentSection>
+          </>
+        );
+
       default:
         return (
           <ContentSection>
@@ -167,10 +200,12 @@ const ModuleContent = ({ module, moduleData, prevModule, nextModule, onNavigate 
           lastUpdated={moduleData.lastUpdated}
         />
 
-        <HeroImage 
-          src={moduleData.heroImage} 
-          alt={moduleData.heroAlt} 
-        />
+        {moduleData.heroImage && (
+          <HeroImage 
+            src={moduleData.heroImage} 
+            alt={moduleData.heroAlt} 
+          />
+        )}
 
         <KeyTakeaways takeaways={moduleData.takeaways} />
 
