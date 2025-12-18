@@ -104,7 +104,7 @@ const Sidebar = ({
 
           {/* Game Link */}
           <a 
-            href="#" 
+            href="https://healingthaomoc.my.canva.site/mln122" 
             className="sidebar__game-link"
             target="_blank"
             rel="noopener noreferrer"
